@@ -1,0 +1,25 @@
+/* Pagini publice pentru Finanțe. Nimic altceva nu stă în repo-ul ăsta:
+   aplicația și datele rămân private, aici sunt doar documentele pe care
+   cineva din afară trebuie să le poată citi. */
+:root { color-scheme: light dark; }
+body {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 6rem;
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  color: #1b2027;
+  background: #eceff4;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #e8edf4; background: #0f141a; }
+  a { color: #8ab0ec; }
+  td, th { border-color: rgba(232,237,244,.14) !important; }
+}
+h1 { font-size: 1.6rem; letter-spacing: -.01em; margin: 0 0 .25rem; }
+h2 { font-size: 1.05rem; margin: 2.25rem 0 .5rem; }
+.sub { color: #76818f; margin: 0 0 2rem; font-size: .95rem; }
+table { border-collapse: collapse; width: 100%; margin: .75rem 0; font-size: .95rem; }
+th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid rgba(27,32,39,.14); vertical-align: top; }
+th { font-weight: 600; }
+a { color: #16305a; }
+footer { margin-top: 3rem; font-size: .9rem; color: #76818f; }
